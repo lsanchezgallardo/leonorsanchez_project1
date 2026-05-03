@@ -26,7 +26,6 @@ body {
     justify-content: right;
     padding: 20px;
 }
- 
 
 h1 {
     color: #575660;
@@ -60,6 +59,8 @@ h4 {
     text-decoration: none;
     font-family: "Josefin-sans", sans-serif;
     margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px; ;
 }
 
 .nav-bar {
@@ -144,12 +145,32 @@ h4 {
 
 .luffy-image {
     border: #ac6060 solid 5px;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .ace-image {
     border: #779c90 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}   
+
+li p {
+    color: #575660;
+    font-family: "Josefin-sans", sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
     margin-left: 20px;
+    max-width: 600px;
+}
+
+li a {
+    color: #575660;
+    text-decoration: none;
+    font-family: "Josefin-sans", sans-serif;
+    font-size: 1.2em;
+    margin-left: 10px;
+    text-shadow: #ac6060 1px 1px 2px;
 }
 
 h3 {
@@ -162,17 +183,17 @@ h3 {
 
 .valfre-title {
    position: relative;
-    left: 200px;
+    left: -200px;
 }
 
 .cardona-title {
     position: relative;
-    left: 500px;
+    left: -70px;
 }
 
 .mada-title {
     position: relative;
-    margin-left: 700px;
+    left: 190px;
 }
 
 h5 a {
@@ -182,7 +203,10 @@ h5 a {
     border: #ffffff dotted 2px;
     padding: 10px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    text-shadow: #a883a0 1px 1px 2px;
+
 }
 
 h5 a:hover {
@@ -200,13 +224,12 @@ section h2 {
     text-align: center;
 }
 
-
-
 footer {
+    margin-top: 30px;
     border-top: 2px solid #949495;   
     border-bottom: 2px solid #949495;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     background-color: #f5f5f5; 
 }
 
@@ -215,7 +238,7 @@ footer h4 {
 }
 
 footer h5 {
-    margin: 10px;
+    margin: 8px;
     font-family: "Josefin-sans", sans-serif;
     color: #575660;
 }
