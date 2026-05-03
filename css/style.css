@@ -150,10 +150,59 @@ h4 {
 }
 
 .ace-image {
-    border: #779c90 solid 7px;
+    border: #b77b4a solid 7px;
     margin-left: 30px;
     margin-top: 10px;
 }   
+
+.law-image {
+    border: #e6e6e6 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.whitebeard-image {
+    border: #3c313e solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.chopper-image {
+    border: #7db5b7 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.sanji-image {
+    border: #cdce82 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.zoro-image {
+    border: #779c90 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.brook-image {
+    border: #826591 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.sabo-image {
+    border: #3757a9 solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.roger-image {    
+    border: #aa91aa solid 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
 
 li p {
     color: #575660;
