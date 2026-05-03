@@ -19,6 +19,15 @@ body {
     width: 100%;
 }
 
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    padding: 20px;
+}
+ 
+
 h1 {
     color: #575660;
     text-align: center;
@@ -191,6 +200,8 @@ section h2 {
     text-align: center;
 }
 
+
+
 footer {
     border-top: 2px solid #949495;   
     border-bottom: 2px solid #949495;
@@ -207,22 +218,4 @@ footer h5 {
     margin: 10px;
     font-family: "Josefin-sans", sans-serif;
     color: #575660;
-}
-
-@media screen and (max-width: 600px) {
-    body {
-    background-color: #d1c4cf;
-    min-height: 100dvh;
-    width: 100%;
-
-    .leonor-image {
-        width: 100%;
-    }
-
-    p {
-        font-size: 1em;
-    }
-}
-
-
 }
