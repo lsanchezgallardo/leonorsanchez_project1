@@ -380,6 +380,10 @@ h3 {
         display: block; 
         animation: infiniteDrop 2s ease-out infinite;
         font-size: 1.5rem; 
+        position: relative;
+        z-index: 100;
+        margin-top: 50px; 
+        margin-bottom: 50px;
     }
 
     .allCan-image {
