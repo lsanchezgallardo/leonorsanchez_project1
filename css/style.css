@@ -293,8 +293,7 @@ h3 {
 
 .allCan-image {
     border: #e6e6e6 solid 7px;
-    /*display: block;*/
-    margin: 0 auto 15px auto; 
+    margin: 0 auto 10px auto; 
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -302,16 +301,12 @@ h3 {
 
 .portfolio-container {
     display: flex;
-
     flex-wrap: wrap;
     justify-content: wrap;
     margin: 0;
-
-    /* margin-left: 30px;
-    margin-top: 20px; */
     align-items: center; 
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
+    gap: 10px;
     
 }
 
@@ -322,8 +317,6 @@ h3 {
     max-width: 600px;
     text-align: center;
     margin: 20px auto;
-
-   /* flex: 0 0 100%; */
 }
 
 .allCan-title {
@@ -332,7 +325,25 @@ h3 {
     text-decoration: none; 
     text-align: center;
     margin: 20px 0;
+    animation: infiniteDrop 2s ease-out infinite;
 }
+
+@keyframes infiniteDrop {
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(40);
+        opacity: 0;
+    }
+}
+
 
 @media (max-width: 768px) {
 
@@ -364,6 +375,7 @@ h3 {
     font-size: 1.1em;
     display: inline-block;
 }
+}
 
 /* footer */
 
@@ -384,5 +396,4 @@ footer h5 {
     margin: 8px;
     font-family: "Josefin-sans", sans-serif;
     color: #575660;
-}
 }
