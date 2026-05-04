@@ -293,21 +293,19 @@ h3 {
 
 .allCan-image {
     border: #e6e6e6 solid 7px;
-   /* display: block;
-    margin: 0 auto 15px auto; */
+    display: block;
+    margin: 0 auto 15px auto; 
     width: 100%;
     max-width: 500px;
     height: auto;
 }
 
 .portfolio-container {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     margin-left: 30px;
     margin-top: 20px; 
-    align-items: center; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    align-items: center; 
     padding: 20px;
     align-items: center;
     gap: 20px;
@@ -320,17 +318,14 @@ h3 {
     font-size: 1.3em;
     max-width: 800px;
     text-align: center;
-
-    grid-column: 1 / -1;
     margin: 20px auto;
 }
 
 .allCan-title {
     color: #575660;
     font-family: fantasy;
-   /* margin-left: 670px;
-    text-decoration: none; */
-
+    margin-left: 670px;
+    text-decoration: none; 
     text-align: center;
     margin: 20px 0;
 }
