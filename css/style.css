@@ -293,17 +293,25 @@ h3 {
 
 .allCan-image {
     border: #e6e6e6 solid 7px;
-    display: block;
-    margin: 0 auto 15px auto;
+   /* display: block;
+    margin: 0 auto 15px auto; */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .portfolio-container {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px; 
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
     align-items: center;
     gap: 20px;
-    margin-left: 30px;
-    margin-top: 20px;
+    
 }
 
 .portfolio-container p {
@@ -312,13 +320,42 @@ h3 {
     font-size: 1.3em;
     max-width: 800px;
     text-align: center;
+
+    grid-column: 1 / -1;
+    margin: 20px auto;
 }
 
 .allCan-title {
     color: #575660;
-    text-decoration: none;
     font-family: fantasy;
-    margin-left: 670px;
+   /* margin-left: 670px;
+    text-decoration: none; */
+
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+   .nav-bar {
+        flex-direction: row;
+        align-items: center;
+        font-size: 0.7em;
+    } 
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .portfolio-container p {
+        font-size: 1em;
+        padding: 10px;
+    }
 }
 
 /* footer */
