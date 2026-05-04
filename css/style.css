@@ -330,36 +330,6 @@ h3 {
     margin: 20px 0;
 }
 
-@media screen and (max-width: 768px) {
-    .portfolio-container {
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .allCan-title {
-        margin-left: 0;
-        text-align: center;
-    }
-
-        .allCan-image {
-            max-width: 100%;
-            margin-left: 10%;
-        }
-
-    .portfolio-container p {
-        font-size: 1.1em;
-    }
-
-    .nav-bar {
-        justify-content: center;
-        gap: 20%;
-    }
-
-     .nav-bar a {
-        font-size: 0.9em;
-    }
-}
-
 /* footer */
 
 footer {
