@@ -82,3 +82,5 @@ Soft colors with a minimalist, modern, and aestheitc theme.
 - Edward Newgate (Whitebeard) - brike83r (n.d.) [Image]. Pinterest. https://www.pinterest.com/pin/506021708137788442/
 
 - Gol D. Roger - anime_closet (n.d.) Gol D. Roger - King of the pirates - One piece - Anime Closet [Image]. Pinterest. https://www.pinterest.com/pin/5770305767858465/
+
+- All CAN - Personal work captured though screenshots.
