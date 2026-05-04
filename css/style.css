@@ -336,11 +336,11 @@ h3 {
         grid-template-columns: 1fr;
     }
 
-   .nav-bar {
+   /*.nav-bar {
         flex-direction: row;
         align-items: center;
         font-size: 0.7em;
-    } 
+    } */
 
     h1 {
         text-align: center;
