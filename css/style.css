@@ -330,14 +330,13 @@ h3 {
     margin: 20px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
-
-    nav {
-        display: flex;
-        flex-direction: row;
+    .portfolio-container {
+        margin-left: 20px;
+        margin-top: 20px;
         align-items: center;
-        gap: 10px;
+        padding: 10px;
     }
 
     h1 {
