@@ -330,7 +330,7 @@ h3 {
     margin: 20px 0;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     .portfolio-container {
         grid-template-rows: 1fr;
