@@ -15,7 +15,7 @@ header {
     border-bottom: #949495 solid 1px;
 }
 
-body {
+body {  
     background-color: #d1c4cf;
     min-height: 100dvh;
     width: 100%;
@@ -293,7 +293,7 @@ h3 {
 
 .allCan-image {
     border: #e6e6e6 solid 7px;
-    display: block;
+    /*display: block;*/
     margin: 0 auto 15px auto; 
     width: 100%;
     max-width: 500px;
@@ -302,12 +302,15 @@ h3 {
 
 .portfolio-container {
     display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    margin-top: 20px; 
+
+    flex-wrap: wrap;
+    justify-content: wrap;
+    margin: 0;
+
+    /* margin-left: 30px;
+    margin-top: 20px; */
     align-items: center; 
     padding: 20px;
-    align-items: center;
     gap: 20px;
     
 }
@@ -319,15 +322,47 @@ h3 {
     max-width: 600px;
     text-align: center;
     margin: 20px auto;
+
+   /* flex: 0 0 100%; */
 }
 
 .allCan-title {
     color: #575660;
     font-family: fantasy;
-    margin-left: 670px;
     text-decoration: none; 
     text-align: center;
     margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+
+    .allCan-image {
+        flex: 1 1 100%;  
+    }
+
+    .portfolio-container {
+        padding: 10px;
+    }
+
+    .portfolio-container p {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .nav-bar {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;      
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #575660;
+    font-size: 1.1em;
+    display: inline-block;
 }
 
 /* footer */
@@ -349,4 +384,5 @@ footer h5 {
     margin: 8px;
     font-family: "Josefin-sans", sans-serif;
     color: #575660;
+}
 }
