@@ -1,9 +1,9 @@
 /* general styles + about page */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -44,11 +44,11 @@ h1 {
 }
 
 p {
-  margin-right: 20px; 
-  color: #575660; 
-  font-family: "Josefin-sans", sans-serif;
-  font-size: 1.5em;
-  padding-top: 20px;
+    margin-right: 20px; 
+    color: #575660; 
+    font-family: "Josefin-sans", sans-serif;
+    font-size: 1.5em;
+    padding-top: 20px;
 }
 
 .leonor-image {
@@ -96,15 +96,6 @@ h4 {
     margin: 20px;
 }
 
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(100%);   
-    }
-}
-
 .me-image {
     display: flex;
     float: right;
@@ -119,21 +110,42 @@ h4 {
     font-family: "Josefin-sans", sans-serif;
 }
 
+/* animation #1 */
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);   
+    }
+}
+
 /* inspiration section */
 
 .valfre-title {
    position: relative;
     left: -200px;
+    opacity: 0;
+    transform: translateX(100vw); 
+    animation: slideFromEdge 5s ease-out forwards;
 }
 
 .cardona-title {
     position: relative;
     left: -70px;
+    display: block;
+    opacity: 0;
+    transform: translateX(-100vw); 
+    animation: slideFromLeftEdge 5s forwards;
 }
 
 .mada-title {
     position: relative;
     left: 190px;
+    opacity: 0;
+    transform: translateX(100vw); 
+    animation: slideFromEdge 5s ease-out forwards;
 }
 
 h5 a {
@@ -175,6 +187,32 @@ section h2 {
 .mada-image {
     border: #000000 double 15px;
     margin-left: 700px;
+}
+
+/* animation #2 */
+
+@keyframes slideFromLeftEdge {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+/* animation #3 */
+
+@keyframes slideFromEdge {
+    0% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
 }
 
 /* top 5's section */
@@ -275,7 +313,7 @@ li a {
     color: #575660;
     text-decoration: none;
     font-family: "Josefin-sans", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-left: 30px;
     margin-bottom: 10px;
     text-shadow: #bb6f93 2px 2px 3px;
@@ -344,6 +382,7 @@ h3 {
     }
 }
 
+/* responsive design for mobile devices (porfolio page) */
 
 @media (max-width: 768px) {
 
@@ -360,20 +399,20 @@ h3 {
         padding: 10px;
     }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;   
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;      
-}
+    .nav-bar {
+        display: flex;
+        flex-direction: row;   
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;      
+    }
 
-.nav-bar a {
-    text-decoration: none;
-    color: #575660;
-    font-size: 1.1em;
-    display: inline-block;
+    .nav-bar a {
+        text-decoration: none;
+        color: #575660;
+        font-size: 1.1em;
+        display: inline-block;
     }
 
     .allCan-title {
@@ -412,3 +451,5 @@ footer h5 {
     font-family: "Josefin-sans", sans-serif;
     color: #575660;
 }
+
+/* end */
