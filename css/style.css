@@ -332,13 +332,10 @@ h3 {
 
 @media (max-width: 768px) {
 
-    .portfolio-container {
-        grid-template-columns: 1fr;
-    }
 
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 10px;
     }
@@ -351,6 +348,7 @@ h3 {
     .portfolio-container p {
         font-size: 1em;
         padding: 10px;
+        align-items: center;
     }
 }
 
