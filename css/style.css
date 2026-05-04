@@ -339,7 +339,7 @@ h3 {
     }
 
     100% {
-        transform: translateY(40);
+        transform: translateY(40px);
         opacity: 0;
     }
 }
@@ -360,7 +360,7 @@ h3 {
         padding: 10px;
     }
 
-    .nav-bar {
+.nav-bar {
     display: flex;
     flex-direction: row;   
     justify-content: center;
@@ -374,9 +374,9 @@ h3 {
     color: #575660;
     font-size: 1.1em;
     display: inline-block;
-}
+    }
 
-.allCan-title {
+    .allCan-title {
         display: block; 
         animation: infiniteDrop 2s ease-out infinite;
         font-size: 1.5rem; 
