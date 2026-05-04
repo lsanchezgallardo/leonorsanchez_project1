@@ -375,6 +375,17 @@ h3 {
     font-size: 1.1em;
     display: inline-block;
 }
+
+.allCan-title {
+        display: block; 
+        animation: infiniteDrop 2s ease-out infinite;
+        font-size: 1.5rem; 
+    }
+
+    .allCan-image {
+        flex: 1 1 100%;  
+    }
+
 }
 
 /* footer */
