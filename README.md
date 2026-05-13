@@ -63,6 +63,12 @@ Soft colors with a minimalist, modern, and aestheitc theme.
 
 ### Images
 
+- Valfre - IIse Valfre. Digital illustrayion of girl with a vision of her enjoying the pool. n.d. https://www.valfre.com
+
+- Female Alchemy - Tatiana Cardona. Physical ceramic mug sculpture of a woment with white and black spotted hair. n.d. https://www.femalealchemy.com
+
+- Mada - Mada Creative. Physical illustration on grid paper of a girl enjoying strawberries in Pananma. n.d. https://www.madacreative.com/ 
+
 - Monkey D. Luffy - BOBART042 (n.d.) one piece wano arc [Image]. Pinterest. https://www.pinterest.com/pin/43347215157981907/
 
 - Portgas D. Ace - Pabverus (n.d.) Ep 1013 [Image]. Pinterest. https://www.pinterest.com/pin/791085490806093584/
